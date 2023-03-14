@@ -20,6 +20,6 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
           script: |
-            git pull origin main
-            git status
+            cd bot/nyter
+            git pull
             npm install
