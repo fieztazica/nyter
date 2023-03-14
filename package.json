@@ -1,0 +1,48 @@
+{
+	"name": "nyter",
+	"version": "1.0.0",
+	"description": "A utility Discord Bot",
+	"funding": "https://ko-fi.com/fiezt",
+	"types": "./typings.d.ts",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js",
+		"dev": "nodemon bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fiezt1492/nyter.git"
+	},
+	"keywords": [
+		"discord-js"
+	],
+	"author": {
+		"name": "Fiezt",
+		"url": "https://github.com/fiezt1492",
+		"email": "fiezt@pm.me"
+	},
+	"contributors": [
+		{
+			"name": "NamVr",
+			"url": "https://github.com/NamVr"
+		}
+	],
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/fiezt1492/nyter/issues"
+	},
+	"homepage": "https://github.com/fiezt1492/nyter#readme",
+	"dependencies": {
+		"@discordjs/rest": "^1.6.0",
+		"axios": "^1.3.4",
+		"country-code-to-flag-emoji": "^1.2.1",
+		"country-list": "^2.3.0",
+		"discord-api-types": "^0.37.35",
+		"discord.js": "^14.8.0",
+		"node-cron": "^3.0.2",
+		"qrcode": "^1.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.21"
+	}
+}
