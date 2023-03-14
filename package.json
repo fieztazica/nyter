@@ -39,6 +39,7 @@
 		"country-list": "^2.3.0",
 		"discord-api-types": "^0.37.35",
 		"discord.js": "^14.8.0",
+		"figlet": "^1.5.2",
 		"node-cron": "^3.0.2",
 		"qrcode": "^1.5.1"
 	},
