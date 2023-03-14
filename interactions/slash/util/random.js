@@ -33,7 +33,7 @@ module.exports = {
 		.addSubcommand((sub) =>
 			sub.setName("user").setDescription("Generate a fake user")
 		),
-	category: "information",
+	category: "utility",
 	async execute(interaction) {
 		const subCommand = interaction.options.getSubcommand();
 

@@ -15,7 +15,7 @@ module.exports = {
 				.setDescription("A text/string to generate QR Code")
 				.setRequired(true)
 		),
-	category: "information",
+	category: "utility",
 	async execute(interaction) {
 		const { client } = interaction;
 		const text = interaction.options.getString("text");

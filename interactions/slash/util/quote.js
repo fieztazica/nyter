@@ -9,7 +9,7 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("quote")
 		.setDescription("Generate random quote"),
-	category: "information",
+	category: "utility",
 	async execute(interaction) {
 		const quote = await axios
 			.get("https://api.quotable.io/random")

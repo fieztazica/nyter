@@ -12,7 +12,7 @@ module.exports = {
 		.addStringOption((option) =>
 			option.setName("type").setDescription("Jokes type").setAutocomplete(true)
 		),
-	category: "information",
+	category: "fun",
 	async execute(interaction) {
 		const type = interaction.options.getString("type") || "general";
 

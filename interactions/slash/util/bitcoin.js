@@ -9,7 +9,7 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("bitcoin")
 		.setDescription("View the Bitcoin Price Index (BPI) in real-time"),
-	category: "information",
+	category: "utility",
 	async execute(interaction) {
 		const type = interaction.options.getString("type") || "general";
 

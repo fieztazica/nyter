@@ -15,7 +15,7 @@ module.exports = {
 		.addSubcommand((sub) =>
 			sub.setName("fact").setDescription("Get random cat facts")
 		),
-	category: "information",
+	category: "fun",
 	async execute(interaction) {
 		const subCommand = interaction.options.getSubcommand();
 
